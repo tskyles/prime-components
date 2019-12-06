@@ -56,6 +56,13 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>RacingSansOne-Regular.ttf</string>
+		<string>Chathura-Bold.ttf</string>
+		<string>Chathura-ExtraBold.ttf</string>
+		<string>Chathura-Light.ttf</string>
+		<string>Chathura-Regular.ttf</string>
+		<string>Chathura-Thin.ttf</string>
+		<string>Audiowide-Regular.ttf</string>
+		<string>Orbitron-Bold.ttf</string>
 	</array>
 </dict>
 </plist>

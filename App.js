@@ -1,61 +1,17 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow
- */
-
 import React from 'react';
-import {StyleSheet, View} from 'react-native';
-import {Colors} from 'react-native/Libraries/NewAppScreen';
-import Header from './components/Header';
+import {ButtonRow, Container, Header, Input, Keypad} from './components';
 
-const App: () => React$Node = () => {
-  return (
-    <View style={styles.container}>
-      <Header>Welcome</Header>
-    </View>
-  );
-};
-
-const styles = StyleSheet.create({
-  scrollView: {
-    backgroundColor: Colors.lighter,
-  },
-  engine: {
-    position: 'absolute',
-    right: 0,
-  },
-  body: {
-    backgroundColor: Colors.white,
-  },
-  sectionContainer: {
-    marginTop: 32,
-    paddingHorizontal: 24,
-  },
-  sectionTitle: {
-    fontSize: 24,
-    fontWeight: '600',
-    color: Colors.black,
-  },
-  sectionDescription: {
-    marginTop: 8,
-    fontSize: 18,
-    fontWeight: '400',
-    color: Colors.dark,
-  },
-  highlight: {
-    fontWeight: '700',
-  },
-  footer: {
-    color: Colors.dark,
-    fontSize: 12,
-    fontWeight: '600',
-    padding: 4,
-    paddingRight: 12,
-    textAlign: 'right',
-  },
-});
+const App = () => (
+  <Container>
+    <Header>Prime Components</Header>
+    <Input>123456</Input>
+    <Keypad>
+      <ButtonRow keys={['1', '2', '3']} />
+      <ButtonRow keys={['4', '5', '6']} />
+      <ButtonRow keys={['7', '8', '9']} />
+      <ButtonRow keys={['0', 'Clear', 'Go']} />
+    </Keypad>
+  </Container>
+);
 
 export default App;

@@ -16,6 +16,13 @@
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* prime_componentsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* prime_componentsTests.m */; };
 		04450BC7749E4237A3631210 /* RacingSansOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2234CA610524D3288BC62B4 /* RacingSansOne-Regular.ttf */; };
+		0775944FB75E4D1995D8A3B4 /* Chathura-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D0EECFF33C54996BED152C2 /* Chathura-Bold.ttf */; };
+		5979B13244C14C199F184AD7 /* Chathura-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB027C77621C46E5AC0368D6 /* Chathura-ExtraBold.ttf */; };
+		143EACF11AFF49BF92216E13 /* Chathura-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBB6F00702D441E88CF6AA0B /* Chathura-Light.ttf */; };
+		7512A2CD95844CC29AB13FCC /* Chathura-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DDE71CF068644A9BB036BC3A /* Chathura-Regular.ttf */; };
+		EE79DA220C63403587AF82E8 /* Chathura-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AECB57A051649ADBE029CE0 /* Chathura-Thin.ttf */; };
+		F9D0509035D14742BF8020BB /* Audiowide-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A425994C08B442FA8988ACB /* Audiowide-Regular.ttf */; };
+		44EBCFB18CC24C1E8338DD27 /* Orbitron-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 67BC9FF3150245B08CCD492A /* Orbitron-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +59,13 @@
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		B2234CA610524D3288BC62B4 /* RacingSansOne-Regular.ttf */ = {isa = PBXFileReference; name = "RacingSansOne-Regular.ttf"; path = "../assets/fonts/RacingSansOne-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8D0EECFF33C54996BED152C2 /* Chathura-Bold.ttf */ = {isa = PBXFileReference; name = "Chathura-Bold.ttf"; path = "../assets/fonts/Chathura-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DB027C77621C46E5AC0368D6 /* Chathura-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Chathura-ExtraBold.ttf"; path = "../assets/fonts/Chathura-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CBB6F00702D441E88CF6AA0B /* Chathura-Light.ttf */ = {isa = PBXFileReference; name = "Chathura-Light.ttf"; path = "../assets/fonts/Chathura-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DDE71CF068644A9BB036BC3A /* Chathura-Regular.ttf */ = {isa = PBXFileReference; name = "Chathura-Regular.ttf"; path = "../assets/fonts/Chathura-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4AECB57A051649ADBE029CE0 /* Chathura-Thin.ttf */ = {isa = PBXFileReference; name = "Chathura-Thin.ttf"; path = "../assets/fonts/Chathura-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2A425994C08B442FA8988ACB /* Audiowide-Regular.ttf */ = {isa = PBXFileReference; name = "Audiowide-Regular.ttf"; path = "../assets/fonts/Audiowide-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		67BC9FF3150245B08CCD492A /* Orbitron-Bold.ttf */ = {isa = PBXFileReference; name = "Orbitron-Bold.ttf"; path = "../assets/fonts/Orbitron-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +177,13 @@
 			isa = "PBXGroup";
 			children = (
 				B2234CA610524D3288BC62B4 /* RacingSansOne-Regular.ttf */,
+				8D0EECFF33C54996BED152C2 /* Chathura-Bold.ttf */,
+				DB027C77621C46E5AC0368D6 /* Chathura-ExtraBold.ttf */,
+				CBB6F00702D441E88CF6AA0B /* Chathura-Light.ttf */,
+				DDE71CF068644A9BB036BC3A /* Chathura-Regular.ttf */,
+				4AECB57A051649ADBE029CE0 /* Chathura-Thin.ttf */,
+				2A425994C08B442FA8988ACB /* Audiowide-Regular.ttf */,
+				67BC9FF3150245B08CCD492A /* Orbitron-Bold.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -305,6 +326,13 @@
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				04450BC7749E4237A3631210 /* RacingSansOne-Regular.ttf in Resources */,
+				0775944FB75E4D1995D8A3B4 /* Chathura-Bold.ttf in Resources */,
+				5979B13244C14C199F184AD7 /* Chathura-ExtraBold.ttf in Resources */,
+				143EACF11AFF49BF92216E13 /* Chathura-Light.ttf in Resources */,
+				7512A2CD95844CC29AB13FCC /* Chathura-Regular.ttf in Resources */,
+				EE79DA220C63403587AF82E8 /* Chathura-Thin.ttf in Resources */,
+				F9D0509035D14742BF8020BB /* Audiowide-Regular.ttf in Resources */,
+				44EBCFB18CC24C1E8338DD27 /* Orbitron-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
